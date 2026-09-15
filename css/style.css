@@ -1,0 +1,35 @@
+*{
+    margin: 0
+    padding 0
+}
+
+header {
+    background-color: aquamarine;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+footer {
+    background-color: rgb(98, 124, 139);
+    padding: 20px 20px;
+}
+
+#about {
+    background-color: rgb(111, 153, 216);
+    padding: 20px;
+    text-align: center;
+}
+
+#articles {
+    background-color: rgb(163, 196, 226);
+    padding: 20px;
+}
+
+p {
+    text-align: justify;
+}
+
+h2 {
+    text-align: center;
+}
