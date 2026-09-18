@@ -2,6 +2,10 @@
     margin: 0
     padding 0
 }
+html{ 
+    font-size: 1em;
+     font-family: "Caveat", cursive;
+}
 
 header {
     background-color: aquamarine;
@@ -22,14 +26,30 @@ footer {
 }
 
 #articles {
-    background-color: rgb(163, 196, 226);
+    background-color: rgb(183, 215, 245);
     padding: 20px;
 }
 
 p {
     text-align: justify;
+    font-size: 1.2rem;
+    line-height: 2.4rem;
+    margin-bottom: 3rem;
 }
 
 h2 {
     text-align: center;
+    font-size: 1.5rem;
+}
+ol {
+    padding-left: 3rem;
+}
+nav ul {
+    padding-left: 20px;
+}
+nav ul {
+    list-style: none;
+    display: flex;  
+    gap: 60px;
+    justify-content: center;
 }

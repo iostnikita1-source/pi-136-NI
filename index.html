@@ -4,12 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Сайт верстальщика</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
         <h1>Личный сайт верстальщика</h1>
         <img width="50px"src="img/android2.svg" alt="icon">
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about">Обо мне</a>
+                </li>
+                <li>
+                    <a href="#articles">Мои статьи</a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <main>
         <section id="about">
@@ -21,10 +34,17 @@
         </section>
         <section id="articles">
             <h2>Мои статьи</h2>
+            <ol start="4" reversed >
+                <li>
+                    <a href="article1.html"> Статья 1 </a>
+                </li>
+                <li>Статья вторая</li>
+                <li>Статья третья</li>
+            </ol>
         </section>
     </main>
     <footer>
         <p>&copy; Иост Никита, 2026 г.</p>
-        <p>Вы также можете найти меня здесь.</p>
+        <p>Вы также можете найти меня <a href="https://www.twitch.tv/?lang=ru">здесь</a></p>
     </footer>
 </body>
